@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/docker")
 public class DockerDemoController {
-
     @GetMapping("testAPI")
     public String testMethod(){
         return "I am working fine";
